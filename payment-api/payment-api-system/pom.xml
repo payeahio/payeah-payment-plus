@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.payment</groupId>
+        <artifactId>payment-api</artifactId>
+        <version>1.8.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>payment-api-system</artifactId>
+
+    <description>
+        payment-api-system系统接口模块
+    </description>
+
+    <dependencies>
+
+        <!-- payment Common Core-->
+        <dependency>
+            <groupId>com.payment</groupId>
+            <artifactId>payment-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.payment</groupId>
+            <artifactId>payment-common-excel</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

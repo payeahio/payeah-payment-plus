@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.payment</groupId>
+        <artifactId>payeah-payment-plus</artifactId>
+        <version>1.8.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>payment-common-bom</module>
+        <module>payment-common-alibaba-bom</module>
+        <module>payment-common-log</module>
+        <module>payment-common-dict</module>
+        <module>payment-common-excel</module>
+        <module>payment-common-core</module>
+        <module>payment-common-redis</module>
+        <module>payment-common-doc</module>
+        <module>payment-common-security</module>
+        <module>payment-common-satoken</module>
+        <module>payment-common-web</module>
+        <module>payment-common-mybatis</module>
+        <module>payment-common-job</module>
+        <module>payment-common-dubbo</module>
+        <module>payment-common-seata</module>
+        <module>payment-common-loadbalancer</module>
+        <module>payment-common-oss</module>
+        <module>payment-common-idempotent</module>
+        <module>payment-common-mail</module>
+        <module>payment-common-sms</module>
+        <module>payment-common-logstash</module>
+        <module>payment-common-elasticsearch</module>
+        <module>payment-common-sentinel</module>
+        <module>payment-common-skylog</module>
+        <module>payment-common-prometheus</module>
+        <module>payment-common-translation</module>
+        <module>payment-common-encrypt</module>
+    </modules>
+
+    <artifactId>payment-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        payment-common通用模块
+    </description>
+
+</project>
